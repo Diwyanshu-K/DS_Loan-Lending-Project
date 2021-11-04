@@ -1,0 +1,39 @@
+# Random Forest Project - Solutions
+
+For this project we will be exploring publicly available data from [LendingClub.com](www.lendingclub.com). Lending Club connects people who need money (borrowers) with people who have money (investors). Hopefully, as an investor you would want to invest in people who showed a profile of having a high probability of paying you back. We will try to create a model that will help predict this.
+
+Lending club had a [very interesting year in 2016](https://en.wikipedia.org/wiki/Lending_Club#2016), so let's check out some of their data and keep the context in mind. This data is from before they even went public.
+
+We will use lending data from 2007-2010 and be trying to classify and predict whether or not the borrower paid back their loan in full. You can download the data from [here](https://www.lendingclub.com/info/download-data.action) or just use the csv already provided. It's recommended you use the csv provided as it has been cleaned of NA values.
+
+
+----------------------------------------------
+
+OUTPUT
+=======
+
+              precision    recall  f1-score   support
+
+           0       0.85      0.82      0.84      2431
+           1       0.19      0.22      0.20       443
+
+    accuracy                           0.73      2874
+   macro avg       0.52      0.52      0.52      2874
+weighted avg       0.75      0.73      0.74      2874
+
+[[1997  434]
+ [ 344   99]]
+              precision    recall  f1-score   support
+
+           0       0.85      1.00      0.92      2431
+           1       0.59      0.02      0.04       443
+
+    accuracy                           0.85      2874
+   macro avg       0.72      0.51      0.48      2874
+weighted avg       0.81      0.85      0.78      2874
+
+[[2424    7]
+ [ 433   10]]
+
+Process finished with exit code 0
+
